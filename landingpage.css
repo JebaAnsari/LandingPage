@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background:url('pas.jpg');
+    background-size: cover;
+    /* opacity: .7; */
+
+}
+nav ul li{
+display: inline-block;
+margin: 10px;
+padding: 20px;
+
+ }
+ .right-nav{
+    position:relative;
+    left: 265px;
+    bottom: 7px;
+ }
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+/* .landpage{
+    justify-content: space-between;
+} */
+nav{
+    background-color: lightseagreen;
+    height: 65px;
+    width: 100%;
+    color: black;
+}
+nav ul{
+    float: right;
+    margin-right: 1px;
+
+}
+a:hover{
+    cursor: pointer;
+    /* background-color: black; */
+    color:black;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: 23px; */
+    /* transform: .5s; */
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    border-radius: 50px;
+}
+form{
+    width: 650px;
+    height: 65px;
+    display: flex;
+    background:#fff;
+    margin-bottom: 500px;
+    border-radius: 60px;
+}
+form input{
+    flex:1;
+    border: none;
+    outline: none;
+
+}
+form button{
+    background: black;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: wheat;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+form .fa-magnifying-glass{
+    align-self: center;
+    padding: 10px  20px;
+    color: #777;
+}
+h2{
+    color: black;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+  .name{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkblue;
+    position :relative;
+    right: 1130px;
+    bottom: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-feature-settings: "abvm";
+    
+  }
+h1{
+    color:black;
+    position: relative;
+    bottom: 500px;
+    left: 300px; 
+     font-size: 70px;
+    font-family: cursive;
+   
+}
+.btn {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* margin: 10px 20px; */
+    background:tomato;
+}
+.btn:hover{
+    background: transparent;
+    border:2px solid red;
+
+}
